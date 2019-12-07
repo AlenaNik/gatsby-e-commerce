@@ -3,12 +3,13 @@ import Header from "./header"
 import Footer from "./footer"
 
 
-function Layout() {
+function Layout({ children }) {
   return(
   <>
   <div>
     <Header/>
     <main>
+      {children}
     </main>
     <Footer/>
   </div>

@@ -1,5 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-export default () => <div>Hello world!
-  <Link to="/about">About </Link> </div>
+const IndexPage = () => {
+  return (
+      <>
+      <h1>Welcome</h1>
+      </>
+  )
+}
+
+export default IndexPage;
