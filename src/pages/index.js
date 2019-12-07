@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 const IndexPage = () => {
   return (
       <>
-      <h1>Welcome</h1>
+      <h1>Welcome to our store</h1>
       </>
   )
 }

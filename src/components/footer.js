@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Footer() {
+function Footer({ metaData }) {
   return(
    <footer>
-     Copyright, 2019
+     {metaData.title },
+     { new Date().getFullYear()}. Brought by {metaData.author}
    </footer>
   )
 }
